@@ -6,7 +6,7 @@
 4,5. What is the name of the Python module that was covered in the first edition but has now been removed?,"The name of the Python module that was covered in the first edition but has now been removed is ""regex""."
 5,6. Where can you find a copy of the book if you want to check it out?,The information provided does not mention where you can find a copy of the book.
 6,7. How can regular expressions be used to parse HTML or XML?,"Regular expressions can be used to parse HTML or XML, but it is generally not recommended. HTML and XML have special cases and complex structures that can make it difficult to write a regular expression that handles all possible cases. Quick and dirty patterns may work for common cases, but they will likely break when faced with more complex scenarios.
- 
+  
 It is recommended to use an HTML or XML parser module specifically designed for parsing these types of documents. These modules are built to handle the intricacies of HTML and XML and provide a more reliable and efficient way to parse them."
 7,8. What is the advantage of using the reVERBOSE flag when compiling regular expressions?,"The advantage of using the re.VERBOSE flag when compiling regular expressions is that it allows you to write the regular expression in a more readable and organized manner. This flag ignores whitespace and comments within the regular expression pattern, making it easier to understand and maintain. It also allows you to add comments within the pattern, which can be helpful for documenting and explaining complex regular expressions."
 8,9. How can regular expressions become difficult to read and understand?,"Regular expressions can become difficult to read and understand due to several reasons:
